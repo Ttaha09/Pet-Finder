@@ -1,7 +1,7 @@
-matplotlib==3.4.3
-numpy==1.19.5
-opencv_contrib_python_headless==4.3.0.36
-Pillow==8.4.0
-streamlit==0.88.0
+matplotlib
+numpy
+opencv_contrib_python_headless
+Pillow
+streamlit
 tensorflow
 tensorflow_gpu
