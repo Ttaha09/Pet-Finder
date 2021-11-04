@@ -3,5 +3,5 @@ numpy==1.19.5
 opencv_contrib_python_headless==4.3.0.36
 Pillow==8.4.0
 streamlit==0.88.0
-tensorflow==2.6.1
-tensorflow_gpu==2.6.0
+tensorflow
+tensorflow_gpu
