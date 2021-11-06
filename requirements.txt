@@ -3,5 +3,6 @@ numpy
 opencv_contrib_python_headless
 Pillow
 streamlit
+xgboost
 tensorflow
 tensorflow_gpu
