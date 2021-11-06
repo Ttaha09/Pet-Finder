@@ -27,7 +27,7 @@ uploaded_file = st.file_uploader('Select an Image', ['png', 'jpg'])
 w,h = 299,299
 if uploaded_file is not None:
     image1 = Image.open(uploaded_file)
-    st.caption("""Your Image before Detection """)
+    st.caption("""Your Image """)
     st.image(image1, use_column_width=True)
     img = np.expand_dims(np.array(image1.resize((w, h), resample=Image.BILINEAR))/255.,0)
     outputs2 = model.predict(img)
