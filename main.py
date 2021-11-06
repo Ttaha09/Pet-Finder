@@ -31,4 +31,4 @@ if uploaded_file is not None:
     st.image(image1, use_column_width=True)
     img = np.expand_dims(np.array(image1.resize((w, h), resample=Image.BILINEAR))/255.,0)
     outputs2 = model.predict(img)
-    st.write(outputs2.squeeze(0)[0])
+    st.write("the prediction of engagement with your pet is :"+str(outputs2.squeeze(0)[0]))
